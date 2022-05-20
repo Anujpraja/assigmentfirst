@@ -1,0 +1,109 @@
+    body {
+        background-image: url("1.png");
+        background-color: #d4dcef;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgae {
+        width: 100%;
+        display: flex;
+    }
+    
+    .imgae img {
+        margin-left: 15%;
+        position: static;
+    }
+    
+    .imgae h1 {
+        display: flex;
+        margin-top: 3%;
+        margin-left: 4%;
+        font-size: 20px;
+        height: 20px;
+        position: static;
+    }
+    
+    .flex-container {
+        width: 60%;
+        background-color: #99a9cf;
+        justify-content: center;
+        border: 1px solid #343946;
+        display: flex;
+    }
+    
+    .flex-container .one {
+        background-color: #b8c3e0;
+        border: 1px solid #343946;
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin: 5%;
+    }
+    
+    .flex-container .two {
+        background-color: #d4dcef;
+        width: 90%;
+        margin: 5%;
+        align-items: center;
+        border: 1px solid #343946;
+        position: relative;
+    }
+    
+    .flex-container .two .text {
+        margin-top: 6%;
+        width: 80%;
+        margin-left: 4%;
+        display: flex;
+    }
+    
+    .flex-container .two .text h1 {
+        font-size: 16px;
+    }
+    
+    .flex-container .two .para {
+        width: 90%;
+        margin-top: 3%;
+        display: flex;
+        margin-left: 4%;
+    }
+    
+    .flex-container .two .para p {
+        font-size: 14px;
+    }
+    
+    .flex-container .two .para p a {
+        display: inline-flex;
+        text-decoration: underline;
+        color: #343946;
+    }
+    
+    .flex-container .two .parasecond {
+        width: 90%;
+        margin-top: 3%;
+        display: flex;
+        margin-left: 4%;
+    }
+    
+    .flex-container .two .parasecond p {
+        font-size: 14px;
+        color: black;
+    }
+    
+    .flex-container .two .parasecond p a {
+        display: inline-flex;
+        text-decoration: underline;
+        color: #343946;
+    }
+    
+    .textbottom {
+        margin-top: 2%;
+    }
+    
+    .images img {
+        width: 100px;
+        height: 60px;
+        position: static;
+    }
